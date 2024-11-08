@@ -1,0 +1,398 @@
+[
+    {
+        "index": 186496,
+        "output": "<Vul_Start> case GL_PROGRAM_COMPLETION_QUERY_CHROMIUM:<Vul_End>",
+        "label": "<Vul_Start> case GL_PROGRAM_COMPLETION_QUERY_CHROMIUM:<Vul_End>",
+        "match": true
+    },
+    {
+        "index": 188606,
+        "output": "<Vul_Start> vpx_codec_dec_cfg_t cfg = vpx_codec_dec_cfg_t();<Vul_End>",
+        "label": "<Vul_Start> vpx_codec_dec_cfg_t cfg = vpx_codec_dec_cfg_t();<Vul_End>",
+        "match": true
+    },
+    {
+        "index": 181485,
+        "output": "<Vul_Start> ushort huff[1024], vpred[2][2], hpred[2];<Vul_End>",
+        "label": "<Vul_Start> ushort huff[1024], vpred[2][2], hpred[2];<Vul_End>",
+        "match": true
+    },
+    {
+        "index": 184514,
+        "output": "<Vul_Start> DCHECK_EQ(client, invalidation_client_.get());<Vul_End>",
+        "label": "<Vul_Start> DCHECK_EQ(client, invalidation_client_.get());<Vul_End>",
+        "match": true
+    },
+    {
+        "index": 185872,
+        "output": "<Vul_Start> DVLOG(1) << __FUNCTION__;<Vul_End>",
+        "label": "<Vul_Start> DVLOG(1) << __FUNCTION__;<Vul_End>",
+        "match": true
+    },
+    {
+        "index": 182298,
+        "output": "<Vul_Start> len = mutt_b64_decode(obuf, idata->buf + 2, sizeof(obuf));<Vul_End>",
+        "label": "<Vul_Start> len = mutt_b64_decode(obuf, idata->buf + 2, sizeof(obuf));<Vul_End>",
+        "match": true
+    },
+    {
+        "index": 181788,
+        "output": "<Vul_Start> status=SetImageExtent(image,image->columns,image->rows); if (status == MagickFalse) { InheritException(exception,&image->exception); return(DestroyImageList(image)); }<Vul_End>",
+        "label": "<Vul_Start> status=SetImageExtent(image,image->columns,image->rows); if (status == MagickFalse) { InheritException(exception,&image->exception); return(DestroyImageList(image)); }<Vul_End>",
+        "match": true
+    },
+    {
+        "index": 185989,
+        "output": "<Vul_Start> if (!V8ScriptRunner::callInternalFunction(v8::Local<v8::Function>::Cast(setter), holder, WTF_ARRAY_LENGTH(argv), argv, isolate).ToLocal(&result)) {<Vul_End>",
+        "label": "<Vul_Start> if (!V8ScriptRunner::callInternalFunction(v8::Local<v8::Function>::Cast(setter), holder, WTF_ARRAY_LENGTH(argv), argv, isolate).ToLocal(&result)) {<Vul_End>",
+        "match": true
+    },
+    {
+        "index": 180869,
+        "output": "<Vul_Start> mark_key_instantiated(key, 0);<Vul_End>",
+        "label": "<Vul_Start> mark_key_instantiated(key, 0);<Vul_End>",
+        "match": true
+    },
+    {
+        "index": 177963,
+        "output": "<Vul_Start> if (!pkey) { ASN1err(ASN1_F_ASN1_ITEM_VERIFY, ERR_R_PASSED_NULL_PARAMETER); return -1; } <Vul_End>",
+        "label": "<Vul_Start> if (!pkey) { ASN1err(ASN1_F_ASN1_ITEM_VERIFY, ERR_R_PASSED_NULL_PARAMETER); return -1; } <Vul_End>",
+        "match": true
+    },
+    {
+        "index": 187528,
+        "output": "<Vul_Start> if (venc_handle->is_secure_session()) { DEBUG_PRINT_ERROR(\"logging secure input buffers is not allowed!\"); return -1; } <Vul_End>",
+        "label": "<Vul_Start> if (venc_handle->is_secure_session()) { DEBUG_PRINT_ERROR(\"logging secure input buffers is not allowed!\"); return -1; } <Vul_End>",
+        "match": true
+    },
+    {
+        "index": 183587,
+        "output": "<Vul_Start> MessageLoop::current()->PostDelayedTask( FROM_HERE, NewRunnableMethod( this, &PluginInstance::OnTimerCall, func, npp_, timer_id), info.interval);<Vul_End><Vul_Start><Vul_End>",
+        "label": "<Vul_Start> MessageLoop::current()->PostDelayedTask( FROM_HERE, NewRunnableMethod( this, &PluginInstance::OnTimerCall, func, npp_, timer_id), info.interval);<Vul_End><Vul_Start><Vul_End>",
+        "match": true
+    },
+    {
+        "index": 186284,
+        "output": "<Vul_Start> if (IsFullscreenForCurrentTab()) ExitFullscreen(true); <Vul_End>",
+        "label": "<Vul_Start> if (IsFullscreenForCurrentTab()) ExitFullscreen(true); <Vul_End>",
+        "match": true
+    },
+    {
+        "index": 180341,
+        "output": "<Vul_Start> <Vul_End>",
+        "label": "<Vul_Start> <Vul_End>",
+        "match": true
+    },
+    {
+        "index": 182366,
+        "output": "<Vul_Start><Vul_End><Vul_Start> if (err == MP_OKAY) { if (mp_iszero(k) == MP_YES) err = MP_ZERO_E; }<Vul_End>",
+        "label": "<Vul_Start><Vul_End><Vul_Start> if (err == MP_OKAY) { if (mp_iszero(k) == MP_YES) err = MP_ZERO_E; } <Vul_End>",
+        "match": true
+    },
+    {
+        "index": 181758,
+        "output": "<Vul_Start> MagickBooleanType status;<Vul_End><Vul_Start> status=SetImageExtent(image,image->columns,image->rows); if (status == MagickFalse) { InheritException(exception,&image->exception); return(DestroyImageList(image)); }<Vul_End>",
+        "label": "<Vul_Start> MagickBooleanType status; <Vul_End><Vul_Start> status=SetImageExtent(image,image->columns,image->rows); if (status == MagickFalse) { InheritException(exception,&image->exception); return(DestroyImageList(image)); }<Vul_End>",
+        "match": true
+    },
+    {
+        "index": 181740,
+        "output": "<Vul_Start> status=SetImageExtent(image,image->columns,image->rows); if (status == MagickFalse) { InheritException(exception,&image->exception); return(DestroyImageList(image)); }<Vul_End>",
+        "label": "<Vul_Start> status=SetImageExtent(image,image->columns,image->rows); if (status == MagickFalse) { InheritException(exception,&image->exception); return(DestroyImageList(image)); }<Vul_End>",
+        "match": true
+    },
+    {
+        "index": 186339,
+        "output": "<Vul_Start> ReportPreconnectAccuracy(*it->second, {});<Vul_End><Vul_Start><Vul_End>",
+        "label": "<Vul_Start> ReportPreconnectAccuracy(*it->second, {});<Vul_End><Vul_Start><Vul_End>",
+        "match": true
+    },
+    {
+        "index": 182415,
+        "output": "<Vul_Start> if (arg >= cdi->capacity)<Vul_End>",
+        "label": "<Vul_Start> if (arg >= cdi->capacity)<Vul_End>",
+        "match": true
+    },
+    {
+        "index": 183281,
+        "output": "<Vul_Start> int is_valid = (error == GIT_OK);<Vul_End><Vul_Start><Vul_End>",
+        "label": "<Vul_Start> int is_valid = (error == GIT_OK);<Vul_End><Vul_Start><Vul_End>",
+        "match": true
+    },
+    {
+        "index": 183040,
+        "output": "<Vul_Start> ret = iwl_sta_ucode_activate(priv, sta_id);<Vul_End><Vul_Start><Vul_End>",
+        "label": "<Vul_Start> ret = iwl_sta_ucode_activate(priv, sta_id);<Vul_End><Vul_Start><Vul_End>",
+        "match": true
+    },
+    {
+        "index": 181578,
+        "output": "<Vul_Start> compact_pixels=AcquireCompactPixels(next_image,exception);<Vul_End>",
+        "label": "<Vul_Start> compact_pixels=AcquireCompactPixels(next_image,exception);<Vul_End>",
+        "match": true
+    },
+    {
+        "index": 178054,
+        "output": "<Vul_Start><Vul_End>",
+        "label": "<Vul_Start><Vul_End>",
+        "match": true
+    },
+    {
+        "index": 182798,
+        "output": "<Vul_Start><Vul_End><Vul_Start><Vul_End>",
+        "label": "<Vul_Start><Vul_End><Vul_Start><Vul_End>",
+        "match": true
+    },
+    {
+        "index": 185498,
+        "output": "<Vul_Start> time_source_(new base::DefaultTickClock),<Vul_End>",
+        "label": "<Vul_Start> time_source_(new base::DefaultTickClock),<Vul_End>",
+        "match": true
+    },
+    {
+        "index": 184259,
+        "output": "<Vul_Start> void BlobRegistry::registerBlobURL(SecurityOrigin* origin, const KURL& url, const KURL& srcURL)<Vul_End><Vul_Start> if (isMainThread()) { if (WebBlobRegistry* registry = blobRegistry())<Vul_End><Vul_Start> registry->registerBlobURL(url, srcURL);<Vul_End><Vul_Start> } else {<Vul_End>",
+        "label": "<Vul_Start> void BlobRegistry::registerBlobURL(SecurityOrigin* origin, const KURL& url, const KURL& srcURL)<Vul_End><Vul_Start> if (isMainThread()) { if (WebBlobRegistry* registry = blobRegistry())<Vul_End><Vul_Start> registry->registerBlobURL(url, srcURL);<Vul_End><Vul_Start> } else {<Vul_End>",
+        "match": true
+    },
+    {
+        "index": 182140,
+        "output": "<Vul_Start> strncpy(ualg->cru_name, alg->cra_name, sizeof(ualg->cru_name));<Vul_End><Vul_Start> strncpy(ualg->cru_driver_name, alg->cra_driver_name,<Vul_End><Vul_Start> strncpy(ualg->cru_module_name, module_name(alg->cra_module),<Vul_End><Vul_Start> strncpy(rl.type, \"larval\", sizeof(rl.type));<Vul_End>",
+        "label": "<Vul_Start> strncpy(ualg->cru_name, alg->cra_name, sizeof(ualg->cru_name));<Vul_End><Vul_Start> strncpy(ualg->cru_driver_name, alg->cra_driver_name,<Vul_End><Vul_Start> strncpy(ualg->cru_module_name, module_name(alg->cra_module),<Vul_End><Vul_Start> strncpy(rl.type, \"larval\", sizeof(rl.type));<Vul_End>",
+        "match": true
+    },
+    {
+        "index": 187557,
+        "output": "<Vul_Start> BufferMeta *bufferMeta = new BufferMeta(graphicBuffer, portIndex);<Vul_End>",
+        "label": "<Vul_Start> BufferMeta *bufferMeta = new BufferMeta(graphicBuffer, portIndex);<Vul_End>",
+        "match": true
+    },
+    {
+        "index": 181992,
+        "output": "<Vul_Start> if (_gdImageWebpCtx(im, out, quality)) { rv = NULL; } else {<Vul_End><Vul_Start> rv = gdDPExtractData(out, size); }<Vul_End>",
+        "label": "<Vul_Start> if (_gdImageWebpCtx(im, out, quality)) { rv = NULL; } else {<Vul_End><Vul_Start> rv = gdDPExtractData(out, size); }<Vul_End>",
+        "match": true
+    },
+    {
+        "index": 180428,
+        "output": "<Vul_Start><Vul_End>",
+        "label": "<Vul_Start><Vul_End>",
+        "match": true
+    },
+    {
+        "index": 179575,
+        "output": "<Vul_Start> check_stack_depth(); <Vul_End>",
+        "label": "<Vul_Start> check_stack_depth(); <Vul_End>",
+        "match": true
+    },
+    {
+        "index": 182077,
+        "output": "<Vul_Start> static MagickBooleanType SkipRGBMipmaps(Image *image,DDSInfo *dds_info, int pixel_size,ExceptionInfo *exception)<Vul_End><Vul_Start> if (EOFBlob(image)!= MagickFalse) { ThrowFileException(exception,CorruptImageError,\"UnexpectedEndOfFile\", image->filename); return(MagickFalse); }<Vul_End><Vul_Start> return(MagickTrue);<Vul_End>",
+        "label": "<Vul_Start> static MagickBooleanType SkipRGBMipmaps(Image *image,DDSInfo *dds_info, int pixel_size,ExceptionInfo *exception)<Vul_End><Vul_Start> if (EOFBlob(image)!= MagickFalse) { ThrowFileException(exception,CorruptImageError,\"UnexpectedEndOfFile\", image->filename); return(MagickFalse); }<Vul_End><Vul_Start> return(MagickTrue);<Vul_End>",
+        "match": true
+    },
+    {
+        "index": 185220,
+        "output": "<Vul_Start> TabDetachedAt(removed_contents->web_contents(), index));<Vul_End>",
+        "label": "<Vul_Start> TabDetachedAt(removed_contents->web_contents(), index));<Vul_End>",
+        "match": true
+    },
+    {
+        "index": 181526,
+        "output": "<Vul_Start> alloc_limit_failure (fn_name, size);<Vul_End><Vul_Start> exit (-1);<Vul_End>",
+        "label": "<Vul_Start> alloc_limit_failure (fn_name, size);<Vul_End><Vul_Start> exit (-1);<Vul_End>",
+        "match": true
+    },
+    {
+        "index": 188570,
+        "output": "<Vul_Start> DECLARE_ALIGNED(16, int16_t, input_block[kNumCoeffs]);<Vul_End><Vul_Start> DECLARE_ALIGNED(16, tran_low_t, output_ref_block[kNumCoeffs]);<Vul_End><Vul_Start> DECLARE_ALIGNED(16, tran_low_t, output_block[kNumCoeffs]);<Vul_End><Vul_Start> <Vul_End><Vul_Start> input_block[j] = (rnd.Rand16() & mask_) - (rnd.Rand16() & mask_);<Vul_End><Vul_Start> ASM_REGISTER_STATE_CHECK(RunFwdTxfm(input_block, output_block, pitch_));<Vul_End>",
+        "label": "<Vul_Start> DECLARE_ALIGNED(16, int16_t, input_block[kNumCoeffs]);<Vul_End><Vul_Start> DECLARE_ALIGNED(16, tran_low_t, output_ref_block[kNumCoeffs]);<Vul_End><Vul_Start> DECLARE_ALIGNED(16, tran_low_t, output_block[kNumCoeffs]);<Vul_End><Vul_Start> <Vul_End><Vul_Start> input_block[j] = (rnd.Rand16() & mask_) - (rnd.Rand16() & mask_);<Vul_End><Vul_Start> ASM_REGISTER_STATE_CHECK(RunFwdTxfm(input_block, output_block, pitch_));<Vul_End>",
+        "match": true
+    },
+    {
+        "index": 186906,
+        "output": "<Vul_Start><Vul_End>",
+        "label": "<Vul_Start><Vul_End>",
+        "match": true
+    },
+    {
+        "index": 179651,
+        "output": "<Vul_Start><Vul_End><Vul_Start> *addr_len = sizeof(*sin);<Vul_End>",
+        "label": "<Vul_Start><Vul_End><Vul_Start> *addr_len = sizeof(*sin);<Vul_End>",
+        "match": true
+    },
+    {
+        "index": 178859,
+        "output": "<Vul_Start> static int can_open_delegated(struct nfs_delegation *delegation, fmode_t fmode)<Vul_End><Vul_Start> if ((delegation->type & fmode)!= fmode)<Vul_End>",
+        "label": "<Vul_Start> static int can_open_delegated(struct nfs_delegation *delegation, fmode_t fmode)<Vul_End><Vul_Start> if ((delegation->type & fmode)!= fmode)<Vul_End>",
+        "match": true
+    },
+    {
+        "index": 181154,
+        "output": "<Vul_Start> if ((i < 0) || (i >= MNG_MAX_OBJECTS)) continue;<Vul_End>",
+        "label": "<Vul_Start> if ((i < 0) || (i >= MNG_MAX_OBJECTS)) continue;<Vul_End>",
+        "match": true
+    },
+    {
+        "index": 184647,
+        "output": "<Vul_Start> if (MessageLoop::current()!= host_context_.main_message_loop()) { host_context_.main_message_loop()->PostTask(FROM_HERE, base::Bind(&HostNPScriptObject::OnShutdownFinished, base::Unretained(this))); return; }<Vul_End>",
+        "label": "<Vul_Start> if (MessageLoop::current()!= host_context_.main_message_loop()) { host_context_.main_message_loop()->PostTask(FROM_HERE, base::Bind( &HostNPScriptObject::OnShutdownFinished, base::Unretained(this))); return; }<Vul_End>",
+        "match": true
+    },
+    {
+        "index": 178144,
+        "output": "<Vul_Start> <Vul_End><Vul_Start> <Vul_End>",
+        "label": "<Vul_Start> <Vul_End><Vul_Start> <Vul_End>",
+        "match": true
+    },
+    {
+        "index": 178547,
+        "output": "<Vul_Start> sprintf( word, \"%s\", getJobActionString(mode));<Vul_End>",
+        "label": "<Vul_Start> sprintf( word, \"%s\", getJobActionString(mode) );<Vul_End>",
+        "match": true
+    },
+    {
+        "index": 180552,
+        "output": "<Vul_Start> buffer = zend_string_safe_alloc(1, len, 0, 0);<Vul_End>",
+        "label": "<Vul_Start> buffer = zend_string_safe_alloc(1, len, 0, 0);<Vul_End>",
+        "match": true
+    },
+    {
+        "index": 183402,
+        "output": "<Vul_Start> if (!pipe_buf_get(ipipe, ibuf)) { if (ret == 0) ret = -EFAULT; break; }<Vul_End>",
+        "label": "<Vul_Start> if (!pipe_buf_get(ipipe, ibuf)) { if (ret == 0) ret = -EFAULT; break; }<Vul_End>",
+        "match": true
+    },
+    {
+        "index": 178673,
+        "output": "<Vul_Start> uint32_t n_dicts = jbig2_sd_count_referred(ctx, segment);<Vul_End><Vul_Start> uint32_t dindex = 0;<Vul_End>",
+        "label": "<Vul_Start> uint32_t n_dicts = jbig2_sd_count_referred(ctx, segment);<Vul_End><Vul_Start> uint32_t dindex = 0;<Vul_End>",
+        "match": true
+    },
+    {
+        "index": 181135,
+        "output": "<Vul_Start> if (SyncImagePixelCache(image,exception) == MagickFalse) return(MagickFalse);<Vul_End>",
+        "label": "<Vul_Start> if (SyncImagePixelCache(image,exception) == MagickFalse) return(MagickFalse);<Vul_End>",
+        "match": true
+    },
+    {
+        "index": 186115,
+        "output": "<Vul_Start> : ObjectBackedNativeHandler(context), weak_ptr_factory_(this) {<Vul_End>",
+        "label": "<Vul_Start> : ObjectBackedNativeHandler(context), weak_ptr_factory_(this) {<Vul_End>",
+        "match": true
+    },
+    {
+        "index": 186788,
+        "output": "<Vul_Start> DCHECK_CALLED_ON_VALID_SEQUENCE(sequence_checker_);<Vul_End>",
+        "label": "<Vul_Start> DCHECK_CALLED_ON_VALID_SEQUENCE(sequence_checker_);<Vul_End>",
+        "match": true
+    },
+    {
+        "index": 184187,
+        "output": "<Vul_Start> InfoBarView::Layout();<Vul_End>",
+        "label": "<Vul_Start> InfoBarView::Layout();<Vul_End>",
+        "match": true
+    },
+    {
+        "index": 186655,
+        "output": "<Vul_Start> if (unpack_flip_y_ || unpack_premultiply_alpha_) { SynthesizeGLError( GL_INVALID_OPERATION, \"texSubImage2D\", \"FLIP_Y or PREMULTIPLY_ALPHA isn't allowed while uploading from PBO\"); return; }<Vul_End>",
+        "label": "<Vul_Start> if (unpack_flip_y_ || unpack_premultiply_alpha_) { SynthesizeGLError( GL_INVALID_OPERATION, \"texSubImage2D\", \"FLIP_Y or PREMULTIPLY_ALPHA isn't allowed while uploading from PBO\"); return; }<Vul_End>",
+        "match": true
+    },
+    {
+        "index": 186295,
+        "output": "<Vul_Start> interstitial_page_->FocusThroughTabTraversal(reverse);<Vul_End>",
+        "label": "<Vul_Start> interstitial_page_->FocusThroughTabTraversal(reverse);<Vul_End>",
+        "match": true
+    },
+    {
+        "index": 179169,
+        "output": "<Vul_Start> for (plane = 0; plane < 4 && in->data[plane] && in->linesize[plane]; plane++)<Vul_End><Vul_Start> for (plane = 0; plane < 4 && in->data[plane] && in->linesize[plane]; plane++)<Vul_End>",
+        "label": "<Vul_Start> for (plane = 0; plane < 4 && in->data[plane] && in->linesize[plane]; plane++)<Vul_End><Vul_Start> for (plane = 0; plane < 4 && in->data[plane] && in->linesize[plane]; plane++)<Vul_End>",
+        "match": true
+    },
+    {
+        "index": 179213,
+        "output": "<Vul_Start> msg->msg_namelen = 0;<Vul_End>",
+        "label": "<Vul_Start> msg->msg_namelen = 0;<Vul_End>",
+        "match": true
+    },
+    {
+        "index": 187934,
+        "output": "<Vul_Start> const sp<IMediaPlayerService> MediaMetadataRetriever::getService()<Vul_End>",
+        "label": "<Vul_Start> const sp<IMediaPlayerService> MediaMetadataRetriever::getService()<Vul_End>",
+        "match": true
+    },
+    {
+        "index": 181765,
+        "output": "<Vul_Start> status=SetImageExtent(image,image->columns,image->rows); if (status == MagickFalse) { InheritException(exception,&image->exception); return(DestroyImageList(image)); }<Vul_End>",
+        "label": "<Vul_Start> status=SetImageExtent(image,image->columns,image->rows); if (status == MagickFalse) { InheritException(exception,&image->exception); return(DestroyImageList(image)); }<Vul_End>",
+        "match": true
+    },
+    {
+        "index": 183463,
+        "output": "<Vul_Start> gfx::Rect view_rect(size_);<Vul_End>",
+        "label": "<Vul_Start> gfx::Rect view_rect(size_);<Vul_End>",
+        "match": true
+    },
+    {
+        "index": 185269,
+        "output": "<Vul_Start> void SerializerMarkupAccumulator::appendCustomAttributes(StringBuilder& out, Element* element, Namespaces* namespaces)<Vul_End><Vul_Start> appendAttribute(out, element, Attribute(frameOwnerURLAttributeName(*frameOwner), url.string()), namespaces);<Vul_End>",
+        "label": "<Vul_Start> void SerializerMarkupAccumulator::appendCustomAttributes(StringBuilder& out, Element* element, Namespaces* namespaces)<Vul_End><Vul_Start> appendAttribute(out, element, Attribute(frameOwnerURLAttributeName(*frameOwner), url.string()), namespaces);<Vul_End>",
+        "match": true
+    },
+    {
+        "index": 185999,
+        "output": "<Vul_Start> const std::string& AppControllerService::MaybeGetAndroidPackageName(<Vul_End>",
+        "label": "<Vul_Start> const std::string& AppControllerService::MaybeGetAndroidPackageName(<Vul_End>",
+        "match": true
+    },
+    {
+        "index": 183004,
+        "output": "<Vul_Start> ND_PRINT((ndo, \"%s\", rpl_tstr));<Vul_End>",
+        "label": "<Vul_Start> ND_PRINT((ndo, \"%s\", rpl_tstr));<Vul_End>",
+        "match": true
+    },
+    {
+        "index": 184136,
+        "output": "<Vul_Start> gtk_widget_hide(container_.get());<Vul_End>",
+        "label": "<Vul_Start> gtk_widget_hide(container_.get());<Vul_End>",
+        "match": true
+    },
+    {
+        "index": 184971,
+        "output": "<Vul_Start> if (ctxt->instate == XML_PARSER_EOF) { xmlFree (buf); return; }<Vul_End>",
+        "label": "<Vul_Start> if (ctxt->instate == XML_PARSER_EOF) { xmlFree(buf); return; }<Vul_End>",
+        "match": true
+    },
+    {
+        "index": 184946,
+        "output": "<Vul_Start> if (!context_)<Vul_End>",
+        "label": "<Vul_Start> if (!context_)<Vul_End>",
+        "match": true
+    },
+    {
+        "index": 179360,
+        "output": "<Vul_Start> strncpy(algo->alg_name, auth->alg_name, sizeof(algo->alg_name));<Vul_End>",
+        "label": "<Vul_Start> strncpy(algo->alg_name, auth->alg_name, sizeof(algo->alg_name));<Vul_End>",
+        "match": true
+    },
+    {
+        "index": 187724,
+        "output": "<Vul_Start> standard_test(png_store* const psIn, png_uint_32 const id,<Vul_End>",
+        "label": "<Vul_Start> standard_test(png_store* const psIn, png_uint_32 const id,<Vul_End>",
+        "match": true
+    },
+    {
+        "index": 180732,
+        "output": "<Vul_Start> int i;<Vul_End><Vul_Start> for (i = 0; i < 3; i++)<Vul_End><Vul_Start> kvm_pit_load_count(kvm, i, ps->channels[i].count, 0);<Vul_End>",
+        "label": "<Vul_Start> int i;<Vul_End><Vul_Start> for (i = 0; i < 3; i++)<Vul_End><Vul_Start> kvm_pit_load_count(kvm, i, ps->channels[i].count, 0);<Vul_End>",
+        "match": true
+    },
+    {
+        "index": 182735,
+        "output": "<Vul_Start> blob_info->data=NULL;<Vul_End>",
+        "label": "<Vul_Start> blob_info->data=NULL;<Vul_End>",
+        "match": true
+    }
+]
